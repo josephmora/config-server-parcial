@@ -1,0 +1,6 @@
+globla message: Mensaje global para todos los servicios
+spring:
+  eurek:
+    client:
+      service-url:
+        defaultZone: http//localhost:8761/eureka
