@@ -9,10 +9,10 @@ spring:
   sql:
     init:
       data-locations: classpath:movie.sql
-    jpa:
-      defer-datasource-initialization: true
-      hibertbate:
-        ddl-auto: create-drop
+  jpa:
+    defer-datasource-initialization: true
+    hibertbate:
+      ddl-auto: create-drop
   h2:
     console.enabled: true
     console.path: /h2-console
