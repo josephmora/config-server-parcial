@@ -13,4 +13,15 @@ spring:
       defer-datasource-initialization: true
       hibertbate:
         ddl-auto: create-drop
+  h2:
+    console.enabled: true
+    console.path: /h2-console
+    console.settings.trace: false
+    spring.h2.console.settings.web-allow-others: false
+
+info:
+  app:
+    name: movie-service
+    description: Movie Service created for DH
+    version: 1.0.0
         
